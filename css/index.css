@@ -1,0 +1,156 @@
+@charset "UTF-8";
+
+body {
+	margin: 0;
+	font-family: "Microsoft YaHei" ! important; 
+}
+
+#header {
+	width: 100%;
+	height: 4em;	
+}
+
+#header-logo {
+	width: 14.611111111em;
+	height: 1.333333333em;
+	margin: auto;
+	display: block;
+	padding-top: 1.2em;
+}
+
+#ad-area {
+	position: relative;
+	width: 40em;
+	height: 12.38888889em;
+	margin: auto;
+}
+
+#ad {
+	width: 40em;
+	height: 12.38888889em;
+	margin: 0;
+	display: block;	
+}
+
+#point-group {
+	position: absolute;
+	left: 2em;
+	bottom: 1em;	
+}
+
+.ad-point {
+	display: block;
+	float: left;
+	margin-right: 0.2em;
+	width: 1.166666667em;
+	height: 1.11111111em;
+}
+
+#menu-area {
+	width: 100%;
+	height: 18.55555556em;
+	margin: auto;
+}
+
+.button {
+	width: 6.8888888889em;
+	height: 6.8888888889em;
+	display: block;
+	float: left;
+	margin: 1.3em 1.555em;
+}
+
+.divide {
+	width: 100%;
+	height: 1.333333333em;
+	background-color: #eeeeee;	
+}
+
+.list {
+	width: 16.7222222222em;
+	height: 8.8333333333em;
+	border: 1px solid #d4d4d4;	
+	margin-top: 1.16666666667em;
+	display: block;
+}
+
+.list-left {
+	float: left;	
+	margin-left: 2em;
+}
+
+.list-right {
+	float: right;
+	margin-right: 2em;	
+}
+
+#sub-page-header{
+	position: absolute;
+	width: 100%;
+	height: 4em;
+	text-align:center;
+	background:#eee;
+}
+
+#slides {
+  display: none
+}
+
+#slides .slidesjs-navigation {
+  margin-top:3px;
+}
+
+#slides .slidesjs-previous {
+  margin-right: 5px;
+  float: left;
+}
+
+#slides .slidesjs-next {
+  margin-right: 5px;
+  float: left;
+}
+
+.slidesjs-pagination {
+  margin: 6px 0 0;
+  float: right;
+  list-style: none;
+}
+
+.slidesjs-pagination li {
+  float: left;
+  margin: 0 1px;
+}
+
+.slidesjs-pagination li a {
+  display: block;
+  width: 13px;
+  height: 0;
+  padding-top: 13px;
+  background-image: url(../images/pagination.png);
+  background-position: 0 0;
+  float: left;
+  overflow: hidden;
+}
+
+.slidesjs-pagination li a.active,
+.slidesjs-pagination li a:hover.active {
+  background-position: 0 -13px
+}
+
+.slidesjs-pagination li a:hover {
+  background-position: 0 -26px
+}
+
+#slides a:link,
+#slides a:visited {
+  color: #333
+}
+
+#slides a:hover,
+#slides a:active {
+  color: #9e2020
+}
+
+.navbar {
+  overflow: hidden
+}
